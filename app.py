@@ -3,11 +3,11 @@ import numpy as np
 import streamlit as st
 
 # Load the trained crop recommendation model
-with open('E:/crop1/decision_tree_model_crop.pkl', 'rb') as file:
+with open('crop1/decision_tree_model_crop.pkl', 'rb') as file:
     rf_model_crop = pickle.load(file)
 
 # Load the trained fertilizer recommendation model
-with open('E:/crop1/decision_tree_model_fertilizer.pkl', 'rb') as file:
+with open('crop1/decision_tree_model_fertilizer.pkl', 'rb') as file:
     rf_model_fertilizer = pickle.load(file)
 
 # Define recommendation functions
